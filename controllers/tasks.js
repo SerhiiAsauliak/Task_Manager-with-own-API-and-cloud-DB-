@@ -16,12 +16,14 @@ const getOneTask = (req,res) => {
 
 const updateTask = (req,res) => {
     console.log('update task')
-    res.send('update task')
+    // res.send('update task')
+    res.json(req.params)
 }
 
 const deleteTask = (req,res) => {
     console.log('delete task')
-    res.send('delete task')
+    // res.send('delete task')
+    res.json(req.params)
 }
 
 
